@@ -67,7 +67,7 @@ System.out.println("El consumo Diario es:"+fac.getConsumo_diario());
 
 System.out.println("El consumo de la Energia electrica es: "+fac.getConsumo()*10 +"kWh");
 
-System.out.println("El valor de la factura electrica es :$"+fac.getValor_factura()*0.20);
+System.out.println("EL VALOR DE LA FACTURA ELECTRICA ES :$"+fac.getValor_factura()*0.20);
  
 }catch (Exception e){
 
