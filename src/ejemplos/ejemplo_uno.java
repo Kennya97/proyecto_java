@@ -73,21 +73,17 @@ private long n_cuenta ;
         return consumo;
     }
 
-    public void setConsumo(int consumo) {
-        this.consumo = consumo;
+      public void setConsumo() {
+     this.consumo = (this.lectura_actual_del_medidor- this.lectura_anterior_del_medidor);
     }
-
     public int getValor_factura() {
         return valor_factura;
     }
 
-    public void setValor_factura(int valor_factura) {
-        this.valor_factura = valor_factura;
+     public void setValor_factura() {
+        this.valor_factura = this.consumo;
     }
-
   
-  
-    
   
 }
 
