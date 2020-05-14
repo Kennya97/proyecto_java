@@ -10,29 +10,29 @@ public static void main(String[] args) {
     
 ejemplo_uno fac = new ejemplo_uno();
 
-Scanner leer = new Scanner (System.in);
+Scanner kenya = new Scanner (System.in);
 
 long n_cuenta ;
 int lectura_actual_del_medidor, lectura_anterior_del_medidor,multiplicador,consumo_mensual,consumo_diario,dias_facturados,valor_factura,consumo;
 
 try {
 System.out.println("Ingrese el numero de la cuenta: ");
-n_cuenta=  leer.nextLong();
+n_cuenta=  kenya.nextLong();
 
 System.out.println("Ingrese la lectura actual del medidor: ");
-lectura_actual_del_medidor= leer.nextInt();
+lectura_actual_del_medidor= kenya.nextInt();
 
 System.out.println("Ingrese la lectura anterior del medidor: ");
-lectura_anterior_del_medidor=leer.nextInt();
+lectura_anterior_del_medidor=kenya.nextInt();
 
 System.out.println("Ingrese el multiplicador: ");
-multiplicador=leer.nextInt();
+multiplicador=kenya.nextInt();
 
 System.out.println("Ingrese los dias facturados: ");
-dias_facturados=leer.nextInt();
+dias_facturados=kenya.nextInt();
 
  System.out.println("Ingrese el consumo mensual: ");
- consumo_mensual =leer.nextInt();
+ consumo_mensual =kenya.nextInt();
  
  System.out.println("Ingrese ingrese el consumo diario");
  consumo_diario=leer.nextInt();
